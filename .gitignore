@@ -1,0 +1,10 @@
+node_modules/
+**/node_modules/
+.env
+.en.*
+
+dist/
+build/
+out/
+.vscode/
+*.tsbuildinfo

@@ -1,0 +1,335 @@
+import type { Transaction } from './types.js'
+
+export const transactions: Transaction[] = [
+  {
+    id: 'TXN-001',
+    date: '2025-11-08T14:25:00',
+    description: 'Zara Store',
+    category: 'Shopping',
+    amount: 120.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Clothing purchase'
+  },
+  {
+    id: 'TXN-002',
+    date: '2025-11-07T09:00:00',
+    description: 'Salary',
+    category: 'Salary',
+    amount: 2500.00,
+    type: 'income',
+    status: 'received',
+    account: 'Savings Card',
+    note: 'November payroll'
+  },
+  {
+    id: 'TXN-003',
+    date: '2025-11-06T19:40:00',
+    description: 'Electricity Bill',
+    category: 'Utilities',
+    amount: 98.50,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Monthly utility payment'
+  },
+  {
+    id: 'TXN-004',
+    date: '2025-11-06T17:20:00',
+    description: 'Netflix Premium',
+    category: 'Entertainment',
+    amount: 15.99,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Subscription renewal'
+  },
+  {
+    id: 'TXN-005',
+    date: '2025-11-05T09:00:00',
+    description: 'Invested onto a company',
+    category: 'Investment',
+    amount: 1200.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Savings Card',
+    note: 'Design contract payment'
+  },
+  {
+    id: 'TXN-006',
+    date: '2025-11-05T14:25:00',
+    description: 'Rent Payment',
+    category: 'Housing',
+    amount: 1250.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Apartment rent'
+  },
+  {
+    id: 'TXN-007',
+    date: '2025-11-05T14:25:00',
+    description: 'Transfer to Savings',
+    category: 'Transfer',
+    amount: 400.00,
+    type: 'expense',
+    status: 'pending',
+    account: 'Main Card',
+    note: 'Monthly saving goal'
+  },
+  {
+    id: 'TXN-008',
+    date: '2025-11-04T17:20:00',
+    description: 'Amazono',
+    category: 'Shopping',
+    amount: 89.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Office supplies'
+  },
+  {
+    id: 'TXN-009',
+    date: '2025-11-03T09:00:00',
+    description: 'Edumy Course',
+    category: 'Education',
+    amount: 120.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Online course payment'
+  },
+  {
+    id: 'TXN-010',
+    date: '2025-11-03T15:50:00',
+    description: 'Uber Ride',
+    category: 'Transportation',
+    amount: 22.50,
+    type: 'expense',
+    status: 'completed',
+    account: 'Travel Card',
+    note: 'Airport ride'
+  },
+  {
+    id: 'TXN-011',
+    date: '2025-11-01T17:20:00',
+    description: 'Bonus',
+    category: 'Salary',
+    amount: 850.00,
+    type: 'income',
+    status: 'received',
+    account: 'Savings Card',
+    note: 'Performance bonus'
+  },
+  {
+    id: 'TXN-012',
+    date: '2025-10-30T11:00:00',
+    description: 'Grocery Store',
+    category: 'Food & Dining',
+    amount: 145.30,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Weekly groceries'
+  },
+  {
+    id: 'TXN-013',
+    date: '2025-10-28T13:20:00',
+    description: 'Spotify Premium',
+    category: 'Entertainment',
+    amount: 9.99,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Monthly subscription'
+  },
+  {
+    id: 'TXN-014',
+    date: '2025-10-27T08:00:00',
+    description: 'Salary',
+    category: 'Salary',
+    amount: 2500.00,
+    type: 'income',
+    status: 'received',
+    account: 'Savings Card',
+    note: 'October payroll'
+  },
+  {
+    id: 'TXN-015',
+    date: '2025-10-25T16:45:00',
+    description: 'Doctor Visit',
+    category: 'Healthcare',
+    amount: 200.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Annual checkup'
+  },
+  {
+    id: 'TXN-016',
+    date: '2025-10-22T12:10:00',
+    description: 'The Dine Spot',
+    category: 'Food & Dining',
+    amount: 45.60,
+    type: 'expense',
+    status: 'completed',
+    account: 'Travel Card',
+    note: 'Lunch with clients'
+  },
+  {
+    id: 'TXN-017',
+    date: '2025-10-20T10:30:00',
+    description: 'Investment Return',
+    category: 'Investment',
+    amount: 320.00,
+    type: 'income',
+    status: 'received',
+    account: 'Savings Card',
+    note: 'Quarterly dividend'
+  },
+  {
+    id: 'TXN-018',
+    date: '2025-10-18T14:00:00',
+    description: 'Phone Bill',
+    category: 'Utilities',
+    amount: 60.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'AT&T monthly plan'
+  },
+  {
+    id: 'TXN-019',
+    date: '2025-10-15T09:30:00',
+    description: 'Investment Returns',
+    category: 'Investment',
+    amount: 800.00,
+    type: 'income',
+    status: 'received',
+    account: 'Savings Card',
+    note: 'Logo project'
+  },
+  {
+    id: 'TXN-020',
+    date: '2025-10-12T18:00:00',
+    description: 'Gym Membership',
+    category: 'Healthcare',
+    amount: 45.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Monthly membership'
+  },
+  {
+    id: 'TXN-021',
+    date: '2025-10-10T11:20:00',
+    description: 'Amazon Shopping',
+    category: 'Shopping',
+    amount: 234.99,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Electronics accessories'
+  },
+  {
+    id: 'TXN-022',
+    date: '2025-10-08T07:45:00',
+    description: 'Metro Card Recharge',
+    category: 'Transportation',
+    amount: 50.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Travel Card',
+    note: 'Monthly commute'
+  },
+  {
+    id: 'TXN-023',
+    date: '2025-09-30T16:00:00',
+    description: 'Salary',
+    category: 'Salary',
+    amount: 2500.00,
+    type: 'income',
+    status: 'received',
+    account: 'Savings Card',
+    note: 'September payroll'
+  },
+  {
+    id: 'TXN-024',
+    date: '2025-09-25T13:00:00',
+    description: 'Adobe Subscription',
+    category: 'Other',
+    amount: 54.99,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Creative Cloud annual'
+  },
+  {
+    id: 'TXN-025',
+    date: '2025-09-20T10:00:00',
+    description: 'Restaurant Night Out',
+    category: 'Food & Dining',
+    amount: 87.40,
+    type: 'expense',
+    status: 'completed',
+    account: 'Travel Card',
+    note: 'Dinner with friends'
+  },
+  {
+    id: 'TXN-026',
+    date: '2025-09-15T09:00:00',
+    description: 'Invested returns',
+    category: 'Investment',
+    amount: 950.00,
+    type: 'income',
+    status: 'received',
+    account: 'Savings Card',
+    note: 'React project milestone'
+  },
+  {
+    id: 'TXN-027',
+    date: '2025-09-10T14:30:00',
+    description: 'Electricity Bill',
+    category: 'Utilities',
+    amount: 102.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'September utility'
+  },
+  {
+    id: 'TXN-028',
+    date: '2025-09-05T11:00:00',
+    description: 'Rent Payment',
+    category: 'Housing',
+    amount: 1250.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'September rent'
+  },
+  {
+    id: 'TXN-029',
+    date: '2025-08-31T09:00:00',
+    description: 'Salary',
+    category: 'Salary',
+    amount: 2500.00,
+    type: 'income',
+    status: 'received',
+    account: 'Savings Card',
+    note: 'August payroll'
+  },
+  {
+    id: 'TXN-030',
+    date: '2025-08-20T15:00:00',
+    description: 'Movie Tickets',
+    category: 'Entertainment',
+    amount: 32.00,
+    type: 'expense',
+    status: 'completed',
+    account: 'Main Card',
+    note: 'Weekend movie'
+  }
+]
+
