@@ -2,7 +2,6 @@ import { useEffect, useMemo } from "react";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { fetchTransactions } from "../store/slices/transactionsSlice";
 import { fetchSummary } from "../store/slices/summarySlice";
-import { usePageTransition } from "../hooks/usePageTransition";
 import InsightCard from "../components/ui/InsightCard";
 import MonthlyBarChart from "../components/charts/MonthlyBarChart";
 import { formatCurrency } from "../utils/formatters";

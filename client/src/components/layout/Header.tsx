@@ -114,7 +114,7 @@ const Header = ({ title }: HeaderProps) => {
           }}
         >
           <div
-            className="flex items-center justify-center rounded-full flex-shrink-0"
+            className="flex items-center justify-center rounded-full shrink-0"
             style={{
               width: 28,
               height: 28,

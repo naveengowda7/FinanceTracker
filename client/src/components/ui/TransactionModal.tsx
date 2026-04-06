@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import { closeModal } from "../../store/slices/uiSlice";

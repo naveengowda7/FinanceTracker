@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { fetchTransactions } from "../store/slices/transactionsSlice";
 import { fetchSummary } from "../store/slices/summarySlice";
-import { usePageTransition } from "../hooks/usePageTransition";
 import StatCard from "../components/ui/StatCard";
 import CreditCard from "../components/ui/CreditCard";
 import TransactionRow from "../components/ui/TransactionRow";
@@ -14,11 +13,7 @@ import { GiLoveSong } from "react-icons/gi";
 import { FaArrowRight, FaCloudDownloadAlt } from "react-icons/fa";
 import { IoIosColorPalette } from "react-icons/io";
 import { IoCard } from "react-icons/io5";
-import {
-  FaArrowTrendDown,
-  FaArrowTrendUp,
-  FaArrowUpRightDots,
-} from "react-icons/fa6";
+import { FaArrowTrendDown, FaArrowTrendUp } from "react-icons/fa6";
 import { PiEmptyBold, PiTargetBold } from "react-icons/pi";
 
 const upcomingPayments = [
@@ -244,8 +239,9 @@ const Dashboard = () => {
             </p>
           ) : recentTransactions.length === 0 ? (
             <div className="flex flex-col items-center justify-center py-8 gap-2">
-              <span style={{ fontSize: 32 }}><PiEmptyBold />
-</span>
+              <span style={{ fontSize: 32 }}>
+                <PiEmptyBold />
+              </span>
               <p style={{ color: "var(--text-muted)", fontSize: 13 }}>
                 No transactions yet
               </p>
