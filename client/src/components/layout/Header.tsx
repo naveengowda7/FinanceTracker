@@ -41,31 +41,7 @@ const Header = ({ title }: HeaderProps) => {
       </h1>
 
       <div className="flex items-center gap-3">
-        <div
-          className="flex items-center gap-2 px-3 py-2 rounded-xl"
-          style={{
-            background: "var(--navy-card)",
-            border: "1px solid var(--navy-border)",
-            width: 200,
-          }}
-        >
-          <span style={{ color: "var(--text-muted)", fontSize: 14 }}>
-            <FaSearchDollar />
-          </span>
-          <input
-            type="text"
-            placeholder="Search..."
-            style={{
-              background: "transparent",
-              border: "none",
-              outline: "none",
-              color: "var(--text-primary)",
-              fontSize: 13,
-              fontFamily: "DM Sans, sans-serif",
-              width: "100%",
-            }}
-          />
-        </div>
+        
 
         <RoleBadge />
 
