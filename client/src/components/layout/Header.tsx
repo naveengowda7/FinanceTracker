@@ -4,7 +4,6 @@ import { toggleDarkMode } from "../../store/slices/uiSlice";
 import RoleBadge from "../ui/RoleBadge";
 import { MdDarkMode } from "react-icons/md";
 import { IoNotificationsOutline } from "react-icons/io5";
-import { FaSearchDollar } from "react-icons/fa";
 
 interface HeaderProps {
   title: string;
