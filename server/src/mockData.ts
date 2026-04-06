@@ -3,7 +3,7 @@ import type { Transaction } from './types.js'
 export const transactions: Transaction[] = [
   {
     id: 'TXN-001',
-    date: '2025-11-08T14:25:00',
+    date: '2024-11-08T14:25:00',
     description: 'Zara Store',
     category: 'Shopping',
     amount: 120.00,
@@ -14,7 +14,7 @@ export const transactions: Transaction[] = [
   },
   {
     id: 'TXN-002',
-    date: '2025-11-07T09:00:00',
+    date: '2026-11-07T09:00:00',
     description: 'Salary',
     category: 'Salary',
     amount: 2500.00,

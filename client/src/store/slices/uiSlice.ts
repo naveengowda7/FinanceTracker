@@ -4,12 +4,14 @@ interface UiState {
   sidebarOpen: boolean
   modalOpen: boolean
   editingTransactionId: string | null
+  isDark: boolean
 }
 
 const initialState: UiState = {
   sidebarOpen: true,
   modalOpen: false,
-  editingTransactionId: null
+  editingTransactionId: null,
+  isDark: true,
 }
 
 const uiSlice = createSlice({
@@ -18,6 +20,9 @@ const uiSlice = createSlice({
   reducers:{
     toggleSidebar: (state) => {
       state.sidebarOpen = !state.sidebarOpen
+    },
+    toggleDarkMode:(state) =>{
+      state.isDark = !state.isDark
     },
     openModal: (state, action: PayloadAction<string | null>)=>{
       state.modalOpen = true
@@ -30,5 +35,5 @@ const uiSlice = createSlice({
   }
 })
 
-export const {toggleSidebar, openModal, closeModal} = uiSlice.actions
+export const {toggleSidebar, openModal, closeModal, toggleDarkMode} = uiSlice.actions
 export default uiSlice.reducer
