@@ -85,13 +85,13 @@ VITE_API_URL=http://localhost:3001/api
 - **Admin only:** Add, edit, delete transactions
 
 ### Insights
-- 4 smart insight cards computed from real data
+- 4 smart insight cards computed from transaction data
   (top category, month-over-month, busiest day, avg expense)
 - Monthly income vs expenses bar chart
 - Top 5 spending categories with progress bars
 
 ### Role Based UI
-Roles are simulated on the frontend — no backend auth.
+Roles are simulated on the frontend, no backend auth.
 
 Switch roles using the toggle in the header.
 Role persists in localStorage across refreshes.
